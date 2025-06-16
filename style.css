@@ -116,7 +116,7 @@ a {
     color: white;
 }
 
-.m-line {
+.m-line-1 {
     display: flex;
     gap: 20px;
     height: 100%;
@@ -125,12 +125,13 @@ a {
 
 .travel {
     text-align: justify;
-    font-size: 30px;
-    font-weight: 200;
+    font-size: 35px;
+    font-weight: 100;
+    line-height: 2em;
 }
 
 .l-foto {
-    height: 28vw;
+    height: 100%;
     border-radius: 10px;
 }
 
@@ -143,4 +144,105 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+
+.m-line-2 {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 20px;
+    height: 100%;
+    height: 32vw;
+}
+
+.l-foto-2 {
+    height: 100%;
+    border-radius: 10px;
+}
+
+/* CATALOG */
+.s-name {
+    color: white;
+    font-family: "Playfair Display", serif;
+    font-size: 50px;
+}
+
+.p-turs {
+    color: #D2C2B2;
+    font-style: italic;
+}
+
+.catalog {
+    background: url(assets/primer.jpg) center center no-repeat;
+    background-size: cover;
+    height: 50vw;
+    width: 100%;
+    border-radius: 30px;
+    padding: 2vw 2vw 1vw 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 20px;
+}
+
+.pop-turs {
+    padding: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    color: white;
+}
+
+.name-and-price-tour {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.info-tour {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.time-price {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 30px;
+}
+
+.name-tour {
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.number-site {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.number {
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    background-color: rgb(129, 129, 129);
+}
+
+#num3 {
+    background-color: white;
+}
+
+.more-tours {
+    width: 200px;
+    height: 60px;
+    border: none;
+    border-radius: 35px;
+
+    font-size: 30px;
+    font-weight: 500;
 }
