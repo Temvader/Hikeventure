@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    
+    background-color: black;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 7vw;
+}
+
+.first-block {
+    padding: 2vw 2vw 5vw 2vw;
+    height: 52vw;
+    background: url(assets/main.jpg) center center no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link {
+    color: black;
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+.h-link {
+    display: flex;
+    align-items: center;
+    gap: 50px;    
+}
+
+.h-btn {
+    width: 90px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+}
+
+.losung {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vw;
+}
+
+.discover {
+    font-size: 50px;
+    line-height: 1em;
+    font-family: "Playfair Display", serif;
+    text-align: center;
+}
+
+.team {
+    background-color: #D2C2B2;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.adventure {
+    color: #7E5C50;
+    font-style: italic;
+}
+
+.haveyou {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.have {
+    color: white;
+    text-align: center;
+}
+
+/* MEANING */
+.meaning {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    height: auto;
+    padding: 2vw;
+    color: white;
+}
+
+.m-line {
+    display: flex;
+    gap: 20px;
+    height: 100%;
+    height: 28vw;
+}
+
+.travel {
+    text-align: justify;
+    font-size: 30px;
+    font-weight: 200;
+}
+
+.l-foto {
+    height: 28vw;
+    border-radius: 10px;
+}
+
+.exquisite {
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.line-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
